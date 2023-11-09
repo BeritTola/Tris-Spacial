@@ -1,0 +1,1 @@
+This class has the database structure
