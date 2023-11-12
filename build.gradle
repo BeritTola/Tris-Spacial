@@ -43,6 +43,12 @@ dependencies {
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    implementation 'org.openjfx:javafx-controls:17'
+    implementation 'org.openjfx:javafx-fxml:17'
+    implementation 'org.openjfx:javafx-graphics:17.0.2'
+    implementation files('/home/fundacion/Downloads/lib/ext/j3dcore.jar')
+    implementation files('/home/fundacion/Downloads/lib/ext/j3dutils.jar')
+    implementation files('/home/fundacion/Downloads/lib/ext/vecmath.jar')
 }
 
 test {
